@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "새벽이슬",
+    "slug": "dawndew",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#42C7F1"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "net.iubns.dawndew"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#42C7F1"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "net.iubns.dawndew",
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#42C7F1"
+        }
+      ]
+    ]
+  }
+}
